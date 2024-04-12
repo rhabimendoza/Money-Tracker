@@ -1,0 +1,213 @@
+/* Body */
+body {
+	background-image: url(./icons/blue.png);
+}
+
+/* Flash */
+#div_flash {
+	margin-top: 145px;
+}
+  
+/* Signature Container */
+.app_info {
+  	position: absolute;
+  	left: 640px;
+  	top: 240px;
+  	width: 567px;
+  	height: 131px;
+}
+
+/* Signature Contents*/
+.app_logo {
+  	position: absolute;
+  	left: 0px;
+  	top: 0px;
+  	width: 131px;
+  	height: 131px;
+}
+
+.app_title_one {
+  	position: absolute;
+  	left: 105px;
+  	top: 3px;
+  	width: 212px;
+  	height: 78.99px;
+  	color: #d80027;
+  	font-family: "Milky Nice";
+  	font-size: 64px;
+  	font-weight: 400;
+}
+
+.app_title_two {
+  	position: absolute;
+  	left: 313px;
+  	top: 2.97px;
+  	width: 254px;
+  	height: 78.99px;
+  	color: #0052B4;
+  	font-family: "Milky Nice";
+  	font-size: 64px;  
+  	font-weight: 400;
+}
+
+.app_description {
+  	position: absolute;
+  	left: 178px;
+  	top: 88px;
+  	width: 362px;
+  	height: 29px;
+  	font-family: Inter;
+  	font-size: 24px;
+  	font-weight: 700;
+}
+
+/* Login Container */
+.login_container {
+  	position: absolute;
+  	width: 475px;
+  	height: 540px;
+  	border: 1px solid #808080;
+  	background: #ffffff;
+  	background-blend-mode: normal;
+  	box-shadow: 3px 3px 5px rgba(100,100,100,0.5);  
+  	position: absolute;
+  	left: 115px;
+  	top: 15px;
+  	width: 475px;
+  	height: 540px;
+}
+
+/* Login Title */
+.login_title {
+  	position: absolute;
+  	left: 166px;
+  	top: 40px;
+  	width: 142px;
+  	height: 58px;
+  	color: #d80027;
+  	font-family: Inter;
+  	font-size: 48px;
+  	font-weight: 700;
+  	text-align: right;
+}
+
+.login_subtitle {
+  	position: absolute;
+  	left: 127px;
+  	top: 102px;
+  	width: 221px;
+  	height: 17px;
+  	color: #b7b7b7;
+  	font-family: Inter;
+  	font-size: 14px;
+  	font-weight: 700;
+}
+
+/* Login Username */
+.div_username {
+  	position: absolute;
+  	left: 46px;
+  	top: 226px;
+	width: 383px;
+	height: 55px;
+}
+
+.login_uname {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 383px;
+	height: 55px;
+	border-radius: 10px;
+	border: 3px solid #b7b7b7;
+	box-shadow: 0px 2px 4px rgba(100,100,100,0.5);
+	font-family: Inter;
+	font-size: 15px;
+	font-weight: 700;
+	padding-left: 35px;
+	background-image: url(./icons/user.png);
+	background-position: left;
+	background-size: 30px;
+	background-repeat: no-repeat;
+}
+
+/* Login Password */
+.div_password {
+	position: absolute;
+	left: 46px;
+	top: 311px;
+	width: 383px;
+	height: 55px;
+}
+
+.login_pword {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 383px;
+	height: 55px;
+	border-radius: 10px;
+	border: 3px solid #b7b7b7;
+	box-shadow: 0px 2px 4px rgba(100,100,100,0.5);
+	font-family: Inter;
+	font-size: 15px;
+	font-weight: 700;
+	padding-left: 35px;
+	background-image: url(./icons/pass.png);
+	background-position: left;
+	background-size: 30px;
+	background-repeat: no-repeat;
+}
+
+/* Login Button */
+.div_button {
+	position: absolute;
+	left: 148px;
+	top: 396px;
+	width: 178px;
+	height: 39px;
+}
+
+.login_button {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 178px;
+	height: 39px;
+	border-radius: 20px;
+	background: #d80027;
+	background-blend-mode: normal;
+}
+
+/* Login Links */
+.div_link {
+	position: absolute;
+	left: 115px;
+	top: 448px;
+	width: 245px;
+	height: 52px;
+}
+
+.signup_link {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 245px;
+	height: 19px;
+	color: #d80027;
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.reset_link {
+	position: absolute;
+	left: 51px;
+	top: 33px;
+	width: 142px;
+	height: 19px;
+	color: #d80027;
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 700;
+}

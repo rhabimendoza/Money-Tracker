@@ -1,0 +1,356 @@
+/* Body */
+body {
+	background-image: url(./icons/red.png);
+}
+
+/* Flash */
+#div_flash {
+	margin-top: 110px;
+}
+
+/* Signature Container */
+.app_info {
+    position: absolute;
+    left: 79px;
+    top: 110px;
+    width: 567px;
+    height: 131px;
+}
+
+/* Signature Contents*/
+.app_logo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 131px;
+    height: 131px;
+}
+
+.app_title_one {
+    position: absolute;
+    left: 105px;
+    top: 3px;
+    width: 212px;
+    height: 78.99px;
+    color: #d80027;
+    font-family: "Milky Nice";
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.app_title_two {
+    position: absolute;
+    left: 313px;
+    top: 2.97px;
+    width: 254px;
+    height: 78.99px;
+    color: #0052B4;
+    font-family: "Milky Nice";
+    font-size: 64px;  
+    font-weight: 400;
+}
+
+.app_description {
+    position: absolute;
+    left: 178px;
+    top: 88px;
+    width: 362px;
+    height: 29px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* Promote Container */
+.app_promote {
+    position: absolute;
+    left: 252px;
+    top: 310px;
+    width: 214px;
+    height: 159px;
+}
+  
+/* Promote Contents */
+.uf_pic {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 53px;
+    height: 53px;
+}  
+ 
+.uf_cap {
+    position: absolute;
+    left: 57px;
+    top: 12px;
+    width: 157px;
+    height: 29px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+}
+  
+.f_pic {
+    position: absolute;
+    left: 0px;
+    top: 53px;
+    width: 53px;
+    height: 53px;
+}
+
+.f_cap {
+    position: absolute;
+    left: 59px;
+    top: 62px;
+    width: 51px;
+    height: 29px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+}
+  
+.s_pic {
+    position: absolute;
+    left: 0px;
+    top: 106px;
+    width: 53px;
+    height: 53px;
+}
+
+.s_cap {
+    position: absolute;
+    left: 57px;
+    top: 115px;
+    width: 98px;
+    height: 29px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+}
+
+/* Signup Container */
+.signup_container {
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    width: 475px;
+    height: 610px;
+    border: 1px solid #808080;
+    background: #ffffff;
+    background-blend-mode: normal;
+    box-shadow: 3px 3px 5px rgba(100,100,100,0.5);
+    position: absolute;
+    left: 715px;
+    width: 475px;
+    height: 550px;
+}
+
+/* Signup Title */
+.signup_title {
+    position: absolute;
+    left: 146px;
+    top: 15px;
+    width: 181px;
+    height: 58px;
+    color: #0052b4;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.signup_subtitle {
+    position: absolute;
+    left: 145px;
+    top: 75px;
+    width: 184px;
+    height: 17px;
+    color: #b7b7b7;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+}
+ 
+/* Signup First Name */
+.div_fname {
+    position: absolute;
+    left: 45px;
+    top: 180px;
+    width: 383px;
+    height: 55px;
+}
+  
+.signup_fname {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 383px;
+    height: 45px;
+    border-radius: 10px;
+    border: 3px solid #b7b7b7;
+    box-shadow: 0px 2px 4px rgba(100,100,100,0.5);
+    font-family: Inter;
+	font-size: 15px;
+	font-weight: 700;
+	padding-left: 35px;
+	background-image: url(./icons/user.png);
+	background-position: left;
+	background-size: 30px;
+	background-repeat: no-repeat;
+}
+
+/* Signup Last Name */
+.div_lname {
+    position: absolute;
+    left: 45px;
+    top: 233px;
+    width: 383px;
+    height: 55px;
+}
+  
+.signup_lname {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 383px;
+    height: 45px;
+    border-radius: 10px;
+    border: 3px solid #b7b7b7;
+    box-shadow: 0px 2px 4px rgba(100,100,100,0.5);
+    font-family: Inter;
+	font-size: 15px;
+	font-weight: 700;
+	padding-left: 35px;
+	background-image: url(./icons/user.png);
+	background-position: left;
+	background-size: 30px;
+	background-repeat: no-repeat;
+}
+
+/* Signup Email */
+.div_email {
+    position: absolute;
+    left: 45px;
+    top: 286px;
+    width: 383px;
+    height: 55px;
+}
+  
+.signup_email {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 383px;
+    height: 45px;
+    border-radius: 10px;
+    border: 3px solid #b7b7b7;
+    box-shadow: 0px 2px 4px rgba(100,100,100,0.5);
+    font-family: Inter;
+	font-size: 15px;
+	font-weight: 700;
+	padding-left: 35px;
+	background-image: url(./icons/email.png);
+	background-position: left;
+	background-size: 30px;
+	background-repeat: no-repeat;
+}
+  
+/* Signup Username */
+.div_uname {
+    position: absolute;
+    left: 45px;
+    top: 339px;
+    width: 383px;
+    height: 55px;
+}
+  
+.signup_uname {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 383px;
+    height: 45px;
+    border-radius: 10px;
+    border: 3px solid #b7b7b7;
+    box-shadow: 0px 2px 4px rgba(100,100,100,0.5);
+    font-family: Inter;
+	font-size: 15px;
+	font-weight: 700;
+	padding-left: 35px;
+	background-image: url(./icons/user.png);
+	background-position: left;
+	background-size: 30px;
+	background-repeat: no-repeat;
+}
+
+/* Signup Password */
+.div_pword {
+    position: absolute;
+    left: 47px;
+    top: 392px;
+    width: 383px;
+    height: 55px;
+}
+  
+.signup_pword {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 383px;
+    height: 45px;
+    border-radius: 10px;
+    border: 3px solid #b7b7b7;
+    box-shadow: 0px 2px 4px rgba(100,100,100,0.5);
+    font-family: Inter;
+	font-size: 15px;
+	font-weight: 700;
+	padding-left: 35px;
+	background-image: url(./icons/pass.png);
+	background-position: left;
+	background-size: 30px;
+	background-repeat: no-repeat;
+}
+
+/* Signup Button */
+.div_button {
+    position: absolute;
+    left: 144px;
+    top: 460px;
+    width: 178px;
+    height: 39px;
+}
+  
+.signup_button {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 178px;
+    height: 39px;
+    border-radius: 20px;
+    background: #0052b4;
+    background-blend-mode: normal;
+}
+
+/* Signup Link */
+.div_link {
+    position: absolute;
+    left: 110px;
+    top: 510px;
+    width: 254px;
+    height: 19px;
+}
+  
+.login_link {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 254px;
+    height: 19px;
+    color: #0052b4;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+}

@@ -1,0 +1,647 @@
+/* Body */
+body {
+	background-image: url(./icons/main.png);
+}
+
+/* Header */
+.ove {
+    color:#000000;
+}
+
+/* Flash */
+#div_flash {
+    position: absolute;
+    left: 640px;
+    top: 105px;
+    width: 582px;
+    height: 68px;
+    line-height: 35px;
+}
+
+/* Flash Button */
+#btn_flash {
+    top: 25px;
+    line-height: 40px;
+}
+
+/* Welcome Container */
+.welcome_container {
+    position: absolute;
+    left: 64px;
+    top: 110px;
+    width: 326px;
+    height: 53px;
+}
+
+/* Welcome Contents */
+.wc_title{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1000px;
+    height: 36px;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.wc_subtitle {
+    position: absolute;
+    left: 0px;
+    top: 36px;
+    width: 320px;
+    height: 17px;
+    color: #b7b7b7;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* Budget Container */
+.budget_container {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 326px;
+    height: 329px;
+    border-radius: 8px;
+    border: 3px solid #0052b4;
+    box-shadow: 0px 1px 5px rgba(100,100,100,0.5);
+    position: absolute;
+    left: 107px;
+    top: 180px;
+    width: 326px;
+    height: 329px;
+    background-color: white;
+}
+
+/* Budget Title Container */
+.budget_title_container {
+    position: absolute;
+    left: 48px;
+    top: 39px;
+    width: 230px;
+    height: 43px;
+}
+
+/* Budget Title Contents */
+.bd_bullet {
+    position: absolute;
+    left: 0px;
+    top: 6px;
+    width: 12px;
+    height: 12px;
+    border-radius: 15px;
+    background: #000000;
+    background-blend-mode: normal;
+}
+  
+.budget_title {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 230px;
+    height: 24px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+  
+.budget_subtitle {
+    position: absolute;
+    left: 23.5px;
+    top: 31px;
+    width: 184px;
+    height: 12px;
+    color: #b7b7b7;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Budget Transaction Container */
+.budget_transaction_container {
+    position: absolute;
+    left: 44px;
+    top: 110px;
+    width: 239.5px;
+    height: 78px;
+}
+
+/* Budget Transaction Contents */
+.bt_bullet {
+    position: absolute;
+    left: 0px;
+    top: 6px;
+    width: 12px;
+    height: 12px;
+    border-radius: 15px;
+    background: #000000;
+    background-blend-mode: normal;
+}
+  
+.bt_title {
+    position: absolute;
+    left: 21.5px;
+    top: 0px;
+    width: 218px;
+    height: 18px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.bt_subtitle {
+    position: absolute;
+    left: 21.5px;
+    top: 18px;
+    width: 165px;
+    height: 12px;
+    color: #b7b7b7;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 700;
+}
+  
+/* Budget Transaction Number Container */
+.bt_number_container{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 114px;
+    height: 33px;
+    border: 3px solid #b7b7b7;
+    box-shadow: 0px 1px 5px rgba(100,100,100,0.5);
+    position: absolute;
+    left: 62px;
+    top: 45px;
+    width: 114px;
+    height: 33px;
+}
+  
+/* Budget Transaction Number Contents */
+.bt_number {
+    position: absolute;
+    left: 4px;
+    top: 3px;
+    width: 106px;
+    height: 18px;
+    color: #0052b4;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+   
+/* Budget Deducted Container */
+.budget_deducted_container {
+    position: absolute;
+    left: 44px;
+    top: 214px;
+    width: 187px;
+    height: 78px;
+}
+
+/* Budget Deducted Contents */
+.bd_title {
+    position: absolute;
+    left: 22px;
+    top: 0px;
+    width: 165px;
+    height: 18px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.bd_subtitle {
+    position: absolute;
+    left: 22px;
+    top: 20px;
+    width: 158px;
+    height: 12px;
+    color: #b7b7b7;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 700;
+}
+    
+/* Budget Deducted Number Container */
+.bd_number_container {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 114px;
+    height: 33px;
+    border: 3px solid #b7b7b7;
+    box-shadow: 0px 1px 5px rgba(100,100,100,0.5);
+    position: absolute;
+    left: 62px;
+    top: 45px;
+    width: 114px;
+    height: 33px;
+}
+  
+/* Budget Deducted Number Contents */
+.bd_number {
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    width: 108px;
+    height: 18px;
+    color: #0052b4;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Total Container */
+.total_container {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 326px;
+    height: 378px;
+    border-radius: 8px;
+    border: 3px solid black;
+    box-shadow: 0px 1px 5px rgba(100,100,100,0.5);
+    position: absolute;
+    left: 477px;
+    top: 180px;
+    width: 326px;
+    height: 378px;
+    background-color: white;
+}
+  
+/* Total Title Container */
+.total_title_container {
+    position: absolute;
+    left: 79px;
+    top: 54.15px;
+    width: 169px;
+    height: 57.66px;
+}
+
+/* Total Title Contents */
+.total_title {
+    position: absolute;
+    left: 17px;
+    top: 0px;
+    width: 133px;
+    height: 24px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+  
+.total_subtitle {
+    position: absolute;
+    left: 0px;
+    top: 33.66px;
+    width: 169px;
+    height: 24px;
+    color: #b7b7b7;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Total Savings Container */
+.total_savings_container {
+    position: absolute;
+    left: 16px;
+    top: 182.03px;
+    width: 101.5px;
+    height: 30.93px;
+}
+
+/* Total Savings Contents */
+.ts_bullet {
+    position: absolute;
+    left: 0px;
+    top: 5.81px;
+    width: 12px;
+    height: 12px;
+    border-radius: 15px;
+    background: #0052b4;
+    background-blend-mode: normal;
+}  
+
+.ts_money {
+    position: absolute;
+    left: 21.5px;
+    top: 0px;
+    width: 80px;
+    height: 18px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.ts_details {
+    position: absolute;
+    left: 35.5px;
+    top: 18.93px;
+    width: 39px;
+    height: 12px;
+    color: #b7b7b7;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 700;
+}
+    
+/* Total Budget Container */
+.total_budget_container {
+    position: absolute;
+    left: 16px;
+    top: 258.48px;
+    width: 102px;
+    height: 30.93px;
+}
+
+/* Total Budget Contents */
+.tb_bullet {
+    position: absolute;
+    left: 0px;
+    top: 5.81px;
+    width: 12px;
+    height: 12px;
+    border-radius: 15px;
+    background: #d80027;
+    background-blend-mode: normal;
+}
+
+.tb_money {
+    position: absolute;
+    left: 22px;
+    top: 0px;
+    width: 80px;
+    height: 18px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+}
+  
+.tb_details {
+    position: absolute;
+    left: 36px;
+    top: 18.93px;
+    width: 35px;
+    height: 12px;
+    color: #b7b7b7;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 700;
+}
+  
+/* Chart */
+.total_chart {
+    position: absolute;
+    left: 145px;
+    top: 155px;
+}
+
+/* Savings Container */
+.savings_container {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 326px;
+    height: 329px;
+    border-radius: 8px;
+    border: 3px solid #d80027;
+    box-shadow: 0px 1px 5px rgba(100,100,100,0.5);
+    position: absolute;
+    left: 847px;
+    top: 180px;
+    width: 326px;
+    height: 329px;
+    background-color: white;
+}
+
+/* Savings Title Container */
+.savings_title_container {
+    position: absolute;
+    left: 40px;
+    top: 39px;
+    width: 247px;
+    height: 43px;
+} 
+
+/* Savings Title Contents */
+.savings_title {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 247px;
+    height: 24px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+  
+.savings_subtitle {
+    position: absolute;
+    left: 36px;
+    top: 31px;
+    width: 175px;
+    height: 12px;
+    color: #b7b7b7;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Savings Transaction Container */
+.savings_transaction_container {
+    position: absolute;
+    left: 44px;
+    top: 110px;
+    width: 239.5px;
+    height: 78px;
+}
+  
+/* Savings Transaction Contents */
+.st_bullet {
+    position: absolute;
+    left: 0px;
+    top: 6px;
+    width: 12px;
+    height: 12px;
+    border-radius: 15px;
+    background: #000000;
+    background-blend-mode: normal;
+}
+
+.st_title {
+    position: absolute;
+    left: 21.5px;
+    top: 0px;
+    width: 218px;
+    height: 18px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.st_subtitle {
+    position: absolute;
+    left: 21.5px;
+    top: 18px;
+    width: 159px;
+    height: 12px;
+    color: #b7b7b7;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 700;
+}
+  
+/* Savings Transaction Number Container */
+.st_number_container {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 114px;
+    height: 33px;
+    border: 3px solid #b7b7b7;
+    box-shadow: 0px 1px 5px rgba(100,100,100,0.5);
+    position: absolute;
+    left: 62.5px;
+    top: 45px;
+    width: 114px;
+    height: 33px;
+}
+  
+/* Savings Transaction Number Contents */
+.st_number {
+    position: absolute;
+    left: 3.5px;
+    top: 3px;
+    width: 108px;
+    height: 18px;
+    color: #d80027;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+   
+/* Savings Added Container */
+.savings_added_container {
+    position: absolute;
+    left: 44px;
+    top: 214px;
+    width: 182px;
+    height: 78px;
+}
+
+/* Savings Added Contents */
+.sa_bullet {
+    position: absolute;
+    left: 0px;
+    top: 6px;
+    width: 12px;
+    height: 12px;
+    border-radius: 15px;
+    background: #000000;
+    background-blend-mode: normal;
+}
+
+.sa_title {
+    position: absolute;
+    left: 22px;
+    top: 0px;
+    width: 141px;
+    height: 18px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+}  
+
+.sa_subtitle {
+    position: absolute;
+    left: 22px;
+    top: 20px;
+    width: 160px;
+    height: 12px;
+    color: #b7b7b7;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+/* Savings Added Number Container */
+.sa_number_container {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 114px;
+    height: 33px;
+    border: 3px solid #b7b7b7;
+    box-shadow: 0px 1px 5px rgba(100,100,100,0.5);
+    position: absolute;
+    left: 65px;
+    top: 45px;
+    width: 114px;
+    height: 33px;
+}
+  
+/* Savings Added Number Contents */
+.sa_number {
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    width: 108px;
+    height: 18px;
+    color: #d80027;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Budget Button Div */
+.div_budget_button {
+    position: absolute;
+    left: 214px;
+    top: 523px;
+    width: 113px;
+    height: 35px;
+}
+
+/* Budget Button */
+.budget_button {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 113px;
+    height: 35px;
+    border-radius: 15px;
+    background: #0052b4;
+    background-blend-mode: normal;
+}
+
+/* Savings Button Div */
+.div_savings_button {
+    position: absolute;
+    left: 954px;
+    top: 523px;
+    width: 113px;
+    height: 35px;
+}
+  
+/* Savings Button */
+.savings_button {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 113px;
+    height: 35px;
+    border-radius: 15px;
+    background: #d80027;
+    background-blend-mode: normal;
+}

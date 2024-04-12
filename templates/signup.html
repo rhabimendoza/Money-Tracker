@@ -1,0 +1,83 @@
+{% extends "access_layout.html" %}
+
+<!-- Add Css -->
+{% block head %}
+    <link href="../static/signup_style.css" rel="stylesheet">
+{% endblock head %}
+
+<!-- Set Title -->
+{% block title %} 
+    Sign Up
+{% endblock title %}
+
+<!-- Set Contents -->
+{% block content %}
+
+    <!-- App Promotion -->
+    <div class="app_promote">
+        <img class="uf_pic" src="../static/icons/check.png" alt="check">
+        <p class="uf_cap">User-friendly</p>
+        <img class="f_pic" src="../static/icons/check.png" alt="check">
+        <p class="f_cap">Fast</p>
+        <img class="s_pic" src="../static/icons/check.png" alt="check">
+        <p class="s_cap">Secured</p>
+    </div>
+
+    <!-- Signup Form -->   
+    <div class="signup_container">
+
+        <!-- Flash -->
+		{% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }}" id="div_flash">
+                        {{ message }}
+                        <button type="button" class="close" id="btn_flash">
+                            <span onclick="removeFlash()">×</span>
+                        </button>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+        <form action="/signup" method="POST">
+
+            <!-- Signup title and subtitle -->
+            <h3 class="signup_title">Sign Up</h3>
+            <p class="signup_subtitle">Welcome to MoneyTracker</p>
+                    
+            <!-- Signup fields and Button -->
+            <div class="div_fname">
+                <input class="signup_fname" type="text" placeholder="First Name" autocomplete="off" name="su_fname">
+            </div>
+
+            <div class="div_lname">
+                <input class="signup_lname" type="text" placeholder="Last Name" autocomplete="off" name="su_lname">
+            </div>
+
+            <div class="div_email">
+                <input class="signup_email" type="text" placeholder="Email" autocomplete="off" name="su_email">
+            </div>
+
+            <div class="div_uname">
+                <input class="signup_uname" type="text" placeholder="Username" autocomplete="off" name="su_uname">
+            </div>
+
+            <div class="div_pword">
+                <input class="signup_pword" type="password" placeholder="Password" autocomplete="off" name="su_pword">
+            </div>
+
+            <div class="div_button">
+                <button class="signup_button" type="submit">Sign Up</button>
+            </div>
+
+            <!-- Link to Other page -->
+            <div class="div_link">
+                <a class="login_link" href="{{url_for('login')}}">Already have an account? Log in</a>  
+            </div>
+
+        </form>
+
+    </div>
+    
+{% endblock content %}

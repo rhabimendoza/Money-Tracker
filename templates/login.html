@@ -1,0 +1,60 @@
+{% extends "access_layout.html" %}
+
+<!-- Add Css -->
+{% block head %}
+	<link href="../static/login_style.css" rel="stylesheet">
+{% endblock head %}
+
+<!-- Set Title -->
+{% block title %}
+	Log In
+{% endblock title %}
+
+<!-- Set Contents -->
+{% block content %}
+	
+	<!-- Login Form -->
+	<div class="login_container">
+
+		<!-- Flash -->
+		{% with messages = get_flashed_messages(with_categories=true) %}
+			{% if messages %}
+				{% for category, message in messages %}
+					<div class="alert alert-{{ category }}" id="div_flash">
+						{{ message }}
+						<button type="button" class="close" id="btn_flash">
+							<span onclick="removeFlash()">×</span>
+						</button>
+					</div>
+				{% endfor %}
+			{% endif %}
+		{% endwith %}
+
+    	<form action="/login" method="POST">
+		    	
+        	<!-- Login title and Subtitle -->
+        	<h3 class="login_title">Log In</h3>
+        	<p class="login_subtitle">Welcome back to MoneyTracker</p>
+			
+        	<!-- Login fields and Button -->
+        	<div class="div_username">
+          		<input class="login_uname" type="text" placeholder="Username" autocomplete="off" name="li_uname">  
+        	</div>
+        	<div class="div_password">
+          		<input class="login_pword" type="password" placeholder="Password" autocomplete="off" name="li_pword">        
+        	</div>
+        	<div class="div_button">
+          		<button class="login_button" type="submit">Log In</button> 
+        	</div>
+
+        	<!-- Links to Other pages -->
+        	<div class="div_link">
+          		<a class="signup_link" href="{{url_for('signup')}}">Don't have an account? Sign up</a>    
+          		<a class="reset_link" href="{{url_for('reset')}}">Forgot password?</a>            
+        	</div>
+
+      	</form>
+
+    </div> 
+
+{% endblock content %}

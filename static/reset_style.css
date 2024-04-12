@@ -1,0 +1,175 @@
+/* Body */
+body {
+	background-image: url(./icons/mix.png);
+}
+
+/* Flash */
+#div_flash {
+	margin-top: 105px;
+}
+
+/* Signature Container */
+.app_info {
+    position: absolute;
+    left: 360px;
+    top: 30px;
+    width: 555px;
+    height: 131px;
+}
+
+/* Signature Contents */
+.app_logo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 131px;
+    height: 131px;
+}
+
+.app_title_one {
+    position: absolute;
+    left: 105px;
+    top: 2.97px;
+    width: 215px;
+    height: 78.99px;
+    color: #d80027;
+    font-family: "Milky Nice";
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.app_title_two {
+    position: absolute;
+    left: 312px;
+    top: 3px;
+    width: 243px;
+    height: 78.99px;
+    color: #0052B4;
+    font-family: "Milky Nice";
+    font-size: 64px;
+    font-weight: 400;
+}
+  
+.app_description {
+    position: absolute;
+    left: 178px;
+    top: 88px;
+    width: 362px;
+    height: 29px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* Reset Container */
+.reset_container {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 475px;
+    height: 422px;
+    border: 1px solid #808080;
+    background: #ffffff;
+    background-blend-mode: normal;
+    box-shadow: 3px 3px 5px rgba(100,100,100,0.5);
+    position: absolute;
+    left: 403px;
+    top: 190px;
+    width: 475px;
+    height: 350px;
+}
+
+/* Reset Title */
+.reset_title {
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    width: 379px;
+    height: 58px;
+    color: #0052b4;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: right;
+}
+
+/* Reset Username */
+.div_uname {
+    position: absolute;
+    left: 46px;
+    top: 184px;
+    width: 383px;
+    height: 55px;
+}
+  
+.reset_username {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 383px;
+    height: 40px;
+    border-radius: 10px;
+    border: 3px solid #b7b7b7;
+    box-shadow: 0px 2px 4px rgba(100,100,100,0.5);
+    font-family: Inter;
+	font-size: 15px;
+	font-weight: 700;
+	padding-left: 35px;
+	background-image: url(./icons/user.png);
+	background-position: left;
+	background-size: 30px;
+	background-repeat: no-repeat;
+}
+
+/* Reset Button */
+.div_btn {
+    position: absolute;
+    left: 148px;
+    top: 240px;
+    width: 178px;
+    height: 39px;
+}
+  
+.reset_button {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 178px;
+    height: 39px;
+    border-radius: 20px;
+    background: #d80027;
+    background-blend-mode: normal;
+}
+
+/* Reset Link */
+.div_link {
+    position: absolute;
+    left: 115px;
+    top: 290px;
+    width: 245px;
+    height: 19px;
+}
+  
+.signup_link {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 245px;
+    height: 19px;
+    color: #0052b4;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.help_det {
+    position: absolute;
+    left: 80px;
+    top: 315px;
+    width: 400px;
+    height: 17px;
+    color: #b7b7b7;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+}

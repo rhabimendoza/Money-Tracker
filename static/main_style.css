@@ -1,0 +1,155 @@
+/* Font */
+.css-selector {
+	font-family: 'Inter', serif;
+}
+
+/* Placeholder */
+::placeholder {
+	color: #b7b7b7;
+	font-family: Inter;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+/* Link Decoration */
+a:link { 
+	text-decoration: none; 
+}
+
+/* Link Visited */
+a:visited { 
+	text-decoration: none; 
+}
+
+/* Link Hover */
+a:hover { 
+	color: black; 
+}
+
+/* Input Focus */
+input:focus {
+	outline: none;
+}
+
+/* Button Hover */
+button:hover {
+	background-color: #B7B7B7;
+}
+
+/* Button */
+button {
+    border: none;
+    color: white;
+    font-family: 'Inter', serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Body */
+body {
+  	background-size: cover;
+  	position: absolute;
+  	background-repeat: no-repeat;
+}
+
+/* Table Alignment */
+th, td {
+    text-align: center;
+}
+
+/* Header Container */
+.app_header {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1380px;
+    height: 100px;
+    border-bottom: 3px solid #eeeef1;
+    position: absolute;
+    left: -50px;
+    top: 0px;
+    width: 1330px;
+    height: 100px;
+    background-color: white;
+}
+
+/* Header Contents */
+.icon {
+    position: absolute;
+    left: 75px;
+    top: 16px;
+    width: 68px;
+    height: 68px;
+}
+
+.title_one {
+    position: absolute;
+    left: 145px;
+    top: 28px;
+    width: 98px;
+    height: 41px;
+    color: #d80027;
+    font-family: "Milky Nice";
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.title_two {
+    position: absolute;
+    left: 243px;
+    top: 28px;
+    width: 114px;
+    height: 41px;
+    color: #0052B4;
+    font-family: "Milky Nice";
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.ove {
+    position: absolute;
+    left: 465px;
+    top: 32px;
+    width: 94px;
+    height: 24px;
+    color: #b7b7b7;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.db {
+    position: absolute;
+    left: 680px;
+    top: 32px;
+    width: 124px;
+    height: 24px;
+    color: #b7b7b7;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.fs {
+    position: absolute;
+    left: 938px;
+    top: 32px;
+    width: 147px;
+    height: 24px;
+    color: #b7b7b7;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.acc {
+    position: absolute;
+    left: 1205px;
+    top: 32px;
+    width: 83px;
+    height: 24px;
+    color: #b7b7b7;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}

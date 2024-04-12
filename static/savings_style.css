@@ -1,0 +1,218 @@
+/* Body */
+body {
+	background-image: url(./icons/sub.png);
+
+}
+
+/* Header */
+.fs {
+    color:#000000;
+}
+
+/* Flash Div */
+#div_flash {
+    height: 40px;
+    width: 300px;
+    left: 432px;
+    top: 105px;
+    line-height: 13px;
+}
+
+/* Flash button */
+#btn_flash {
+    line-height: 10px;
+}
+
+/* Text Search */
+.savings_search {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 213px;
+    height: 31px;
+    border: 3px solid #d80027;
+    position: absolute;
+    left: 1019px;
+    top: 110px;
+    width: 213px;
+    height: 31px;
+    border-radius: 8px;
+}
+
+/* Table Container */
+.table_container {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 530px;
+    height: 523px;
+    border: 3px solid #d80027;
+    position: absolute;
+    left: 432px;
+    top: 150px;
+    width: 800px;
+    height: 410px;
+    overflow: auto;
+    overflow-x: hidden;
+    background-color: white;
+    border-radius: 8px;
+}
+
+/* Table Delete Button */
+#savings_delete {
+    background: #d80027
+}
+
+/* Card Container */
+.card_container {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 326px;
+    height: 183px;
+    border-radius: 8px;
+    border: solid #0052b4;
+    box-shadow: 0px 3px 5px rgba(100,100,100,0.5);
+    position: absolute;
+    left: 48px;
+    top: 110px;
+    width: 326px;
+    height: 183px;
+    background-color: white;
+}
+
+/* Card Contents */
+.card_title {
+    position: absolute;
+    left: 20px;
+    top: 25px;
+    width: 200px;
+    height: 29px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card_money {
+    position: absolute;
+    left: 20px;
+    top: 114px;
+    width: 295px;
+    height: 58px;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: right;
+}
+
+/* Activity Container */
+.activity_container {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 326px;
+    height: 352px;
+    border: 3px solid #d80027;
+    box-shadow: 0px 3px 5px rgba(100,100,100,0.5);
+    position: absolute;
+    left: 48px;
+    top: 300px;
+    width: 326px;
+    height: 260px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+/* Activity Contents */
+.details_container {
+    position: absolute;
+    left: 30px;
+    top: 65px;
+    width: 256px;
+    height: 62.2px;
+}
+
+.details_title {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 48px;
+    height: 17px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.details_box {
+    position: absolute;
+    left: 0px;
+    top: 20.2px;
+    width: 256px;
+    height: 42px;
+    border: 3px solid #d80027;
+    box-shadow: 0px 3px 4px rgba(100,100,100,0.5);
+    border-radius: 8px;
+}
+
+.amount_container {
+    position: absolute;
+    left: 30px;
+    top: 140px;
+    width: 256px;
+    height: 62.8px;
+}
+  
+.amount_title {
+    position: absolute;
+    left: 2px;
+    top: 0px;
+    width: 55px;
+    height: 17px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: right;
+}
+  
+.amount_box {
+    position: absolute;
+    left: 0px;
+    top: 20.8px;
+    width: 256px;
+    height: 42px;
+    border: 3px solid #d80027;
+    box-shadow: 0px 3px 4px rgba(100,100,100,0.5);
+    border-radius: 8px;
+}
+
+/* Activity Done Button */
+.savings_done {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 121px;
+    height: 40.9px;
+    border-radius: 15px;
+    background: #d80027;
+    background-blend-mode: normal;position: absolute;
+    left: 103px;
+    top: 215px;
+    width: 121px;
+    height: 31px;
+}
+   
+/* Drop Down Activities */
+.activity_choices {
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    width: 256px;
+    height: 42px;
+    border: 3px solid #d80027;
+    box-shadow: 0px 3px 4px rgba(100,100,100,0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 8px;
+}

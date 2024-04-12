@@ -1,0 +1,60 @@
+{% extends "access_layout.html" %}
+
+<!-- Add Css -->
+{% block head %}
+	<link href="../static/reset_style.css" rel="stylesheet">
+{% endblock head %}
+
+<!-- Set Title -->
+{% block title %}
+	Reset
+{% endblock title %}
+
+<!-- Set Contents -->
+{% block content %}
+
+	<!-- Reset Form -->
+	<div class="reset_container">
+
+		<!-- Flash -->
+		{% with messages = get_flashed_messages(with_categories=true) %}
+			{% if messages %}
+				{% for category, message in messages %}
+					<div class="alert alert-{{ category }}" id="div_flash">
+						{{ message }}
+						<button type="button" class="close" id="btn_flash">
+							<span onclick="removeFlash()">×</span>
+						</button>
+					</div>
+				{% endfor %}
+			{% endif %}
+		{% endwith %}
+
+		<form action="/reset" method="POST">
+
+			<!-- Reset Title -->
+			<h3 class="reset_title">Reset Password</h3>
+			
+			<!-- Reset Field -->
+			<div class="div_uname">
+				<input class="reset_username" type="text" placeholder="Username" autocomplete="off" name="rp_uname">
+			</div>
+
+			<!-- Reset Button -->
+			<div class="div_btn">
+				<button class="reset_button" type="submit">Reset Password</button>
+			</div>
+
+			<!-- Link to Other Page -->
+			<div class="div_link">
+				<a class="signup_link" href="{{url_for('signup')}}">Don't have an account? Sign up</a>			
+			</div>
+
+			<!-- Contact Support -->
+			<p class="help_det">Get in touch at rhabidpmendoza@gmail.com</p>
+		
+		</form>
+
+	</div>
+	
+{% endblock content %}

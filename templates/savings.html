@@ -1,0 +1,77 @@
+{% extends "main_layout.html" %}
+
+<!-- Add Css -->
+{% block head %}
+	<link href="../static/savings_style.css" rel="stylesheet">
+{% endblock head %}
+
+<!-- Set Title -->
+{% block title %}
+	Future Savings
+{% endblock title %}
+
+<!-- Set Contents -->
+{% block content %}	
+
+	<!-- Search Box Section -->
+	<input class="savings_search" id="txtSearch" type="text" onkeyup="tableSearch()" placeholder="Search in details">
+
+	<!-- Table Section -->
+	<div class="table_container">
+
+		<table class="table" id="tblData">
+			<tr>
+				<th>Id</th>
+				<th>Type</th>
+				<th>Details</th>
+				<th>Amount</th>
+			</tr>
+			{% for row in data | reverse %}
+			<tr>
+				<td>{{ row[0] }}</td>
+				<td>{{ row[1] }}</td>
+				<td>{{ row[2] }}</td>
+				<td>&#8369;{{ row[3] }}</td>
+				<td width="135">
+					<a href="/savings_delete/{{ row[0] }}" class="btn btn-danger" id="savings_delete">Delete</a>
+				</td>
+			</tr>
+			{% endfor %}
+		</table>
+
+	</div>
+
+	<!-- Card Section -->
+	<div class="card_container">
+		<h3 class="card_title">Future Savings</h3>
+		<h1 class="card_money">&#8369;{{ savings_money }}</h1>
+	</div>
+
+	<!-- Activity Input Container -->
+	<div class="activity_container">
+
+		<form action="{{ url_for('savings_activity') }}" method="POST">
+
+			<select class="activity_choices" name="activities">
+				<option value="add">Add savings</option>
+				<option value="transfer">Transfer to budget</option>
+				<option value="delete">Delete savings</option>
+			</select>
+
+			<div class="details_container">
+				<h6 class="details_title">Details</h6>
+				<input class="details_box" type="text" placeholder="details" autocomplete="off" name="details">
+			</div>
+
+			<div class="amount_container">
+				<h6 class="amount_title">Amount</h6>
+				<input class="amount_box" type="text" placeholder="amount" autocomplete="off" name="amount">
+			</div>
+
+			<button class="savings_done">Done</button>
+
+		</form>
+		
+	</div>
+
+{% endblock content %}

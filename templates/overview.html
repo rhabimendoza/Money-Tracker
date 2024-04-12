@@ -1,0 +1,137 @@
+{% extends "main_layout.html" %}
+
+<!-- Add Css and Chart -->
+{% block head %}
+    <link href="../static/overview_style.css" rel="stylesheet">
+{% endblock head %}
+
+<!-- Set Title -->
+{% block title %}
+    Home
+{% endblock title %}
+
+<!-- Set Contents -->
+{% block content %}
+
+    <!-- Welcome Section -->
+    <div class="welcome_container">
+        <h2 class="wc_title">Welcome, {{ uname }}</h2>
+        <p class="wc_subtitle">Get an overview of your previous transactions.</p>
+    </div>
+
+    <!-- Daily Budget Section -->
+    <div class="budget_container">
+
+        <div class="budget_title_container">
+            <h4 class="budget_title">Daily Budget Overview</h4>
+            <p class="budget_subtitle">Summary from the daily budget page.</p>
+        </div>
+
+        <div class="budget_transaction_container">
+            <p class="bd_bullet"></p>
+            <h5 class="bt_title">Number of transactions made</h5>
+            <p class="bt_subtitle">Times daily budget was deducted</p>
+            <div class="bt_number_container">
+                <p class="bt_number">{{ bt_num }}</p>
+            </div>
+        </div>
+
+        <div class="budget_deducted_container">
+            <p class="bt_bullet"></p>
+            <h5 class="bd_title">Total money deducted</h5>
+            <p class="bd_subtitle">Amount spent from daily budget</p>
+            <div class="bd_number_container">
+                <p class="bd_number">&#8369;{{ bd_num }}</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Total Money Section -->
+    <div class="total_container">
+
+        <div class="total_title_container">
+            <h4 class="total_title">Total Money</h4>
+            <p class="total_subtitle">This is your total money from your daily budget and future savings.</p>
+        </div>
+
+        <div class="total_savings_container">
+            <p class="ts_bullet"></p>
+            <h5 class="ts_money">&#8369; {{ fut_mon }}</h5>
+            <p class="ts_details">Savings</p>
+        </div>
+
+        <div class="total_budget_container">
+            <p class="tb_bullet"></p>
+            <h5 class="tb_money">&#8369; {{ bud_mon }}</h5>
+            <p class="tb_details">Budget</p>
+        </div>
+
+        <div class="total_chart">
+            <canvas id="canvas" width="150" height="150"></canvas>
+        </div>
+
+    </div>
+
+    <!-- Future Savings Sections -->
+    <div class="savings_container">
+
+        <div class="savings_title_container">
+            <h4 class="savings_title">Future Savings Overview</h4>
+            <p class="savings_subtitle">Summary from future savings page.</p>
+        </div>
+
+        <div class="savings_transaction_container">
+            <p class="st_bullet"></p>
+            <h5 class="st_title">Number of transactions made</h5>
+            <p class="st_subtitle">Times future savings was added</p>
+            <div class="st_number_container">
+                <p class="st_number">{{ ft_num }}</p>
+            </div>
+        </div>
+
+        <div class="savings_added_container">
+            <p class="sa_bullet"></p>
+            <h5 class="sa_title">Total money added</h5>
+            <p class="sa_subtitle">Amount added to future savings</p>
+            <div class="sa_number_container">
+                <p class="sa_number">&#8369;{{ fa_num }}</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Buttons -->
+    <form action="/" method="POST">
+
+        <div class="div_budget_button">
+            <button class="budget_button" type="submit" value="btn_budget" name="btnover">Reset</button>
+        </div>
+
+        <div class="div_savings_button">
+            <button class="savings_button" type="submit" value="btn_savings" name="btnover">Reset</button>
+        </div>   
+
+    </form>
+
+   <script src="../static/chart.min.js"></script>
+
+   <script>
+        var a = '{{ fut_mon }}';
+        var b = '{{ bud_mon }}';
+        var savings = parseFloat(a)
+        var budget = parseFloat(b)
+
+        var ctx = document.getElementById("canvas");
+        var myChart = new Chart(ctx, {
+            type: "doughnut",
+            data: {
+                datasets: [{
+                    data: [savings, budget],
+                    backgroundColor: ["#0052b4", "#d80027"]
+                }]
+            }
+        });
+   </script>
+
+{% endblock content %}

@@ -1,0 +1,289 @@
+/* Body */
+body {
+	background-image: url(./icons/sub.png);
+}
+
+/* Header */
+.acc {
+    color:#000000;
+}
+
+/* Flash Div */
+#div_flash {
+    position: absolute;
+    height: 40px;
+    width: 1235px;
+    left: 20px;
+    top: 100px;
+    line-height: 13px;
+}
+
+/* Flash Button */
+#btn_flash {
+    line-height: 13px;
+}
+
+/* Title */
+.title {
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    width: 1180px;
+    height: 58px;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Info Container */
+.info_container {
+    position: absolute;
+    left: 73px;
+    top: 230px;
+    width: 1132px;
+    height: 171px;
+}
+  
+/* First Name Container */
+.fname_container {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 250px;
+    height: 75px;
+}
+
+/* First Name Contents */
+.fname_title {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 95px;
+    height: 22px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+} 
+
+.fname_box {
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    width: 250px;
+    height: 35px;
+    border: solid #d80027;
+    box-shadow: 0px 3px 3px rgba(100,100,100,0.5);
+    border-radius: 8px;
+}
+  
+/* Last Name Container */
+.lname_container {
+    position: absolute;
+    left: 266px;
+    top: 0px;
+    width: 250px;
+    height: 75px;
+}
+
+/* Last Name Contents */
+.lname_title {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 93px;
+    height: 22px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+} 
+
+.lname_box {
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    width: 250px;
+    height: 35px;
+    border: solid #d80027;
+    box-shadow: 0px 3px 3px rgba(100,100,100,0.5);
+    border-radius: 8px;
+}
+  
+/* Email Container */
+.email_container {
+    position: absolute;
+    left: 0px;
+    top: 96px;
+    width: 250px;
+    height: 75px;
+  }
+
+/* Email Contents */
+.email_title {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 48px;
+    height: 22px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.email_box {
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    width: 250px;
+    height: 35px;
+    border: solid #d80027;
+    box-shadow: 0px 3px 3px rgba(100,100,100,0.5);
+    border-radius: 8px;
+}
+  
+/* Username Container */
+.uname_container {
+    position: absolute;
+    left: 266px;
+    top: 96px;
+    width: 250px;
+    height: 75px;
+}
+
+/* Username Contents */
+.uname_title {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 113px;
+    height: 22px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+}
+  
+.uname_box {
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    width: 250px;
+    height: 35px;
+    border: solid #d80027;
+    box-shadow: 0px 3px 3px rgba(100,100,100,0.5);
+    border-radius: 8px;
+}
+  
+/* Update Info Button */
+.update_info {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 113px;
+    height: 35px;
+    border-radius: 15px;
+    background: #d80027;
+    background-blend-mode: normal;
+    position: absolute;
+    left: 403px;
+    top: 200px;
+    width: 113px;
+    height: 35px;
+}
+
+/* Current Password Container */
+.cur_pword_container{
+    position: absolute;
+    left: 616px;
+    top: 0px;
+    width: 250px;
+    height: 75px;
+}
+
+/* Current Password Contents */
+.cur_pword_title {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 160px;
+    height: 22px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+}
+  
+.cur_pword_box {
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    width: 250px;
+    height: 35px;
+    border: solid #0052b4;
+    box-shadow: 0px 3px 3px rgba(100,100,100,0.5);
+    border-radius: 8px;
+}
+  
+/* New Password Container */
+.new_pword_container {
+    position: absolute;
+    left: 882px;
+    top: 0px;
+    width: 250px;
+    height: 75px;
+}
+ 
+/* New Password Contents */
+.new_pword_title {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 131px;
+    height: 22px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+}
+  
+.new_pword_box {
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    width: 250px;
+    height: 35px;
+    border: solid #0052b4;
+    box-shadow: 0px 3px 3px rgba(100,100,100,0.5);
+    border-radius: 8px;
+}
+  
+/* Update Password Button */
+.update_pword {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 188px;
+    height: 35px;
+    border-radius: 15px;
+    background: #0052b4;
+    background-blend-mode: normal;
+    position: absolute;
+    left: 943px;
+    top: 100px;
+    width: 188px;
+    height: 35px;
+}
+
+/* Logout Button */
+.logout {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 113px;
+    height: 35px;
+    border-radius: 15px;
+    background: #0052b4;
+    background-blend-mode: normal;
+    position: absolute;
+    left: 1018px;
+    top: 200px;
+    width: 113px;
+    height: 35px;
+}  

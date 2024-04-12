@@ -1,0 +1,64 @@
+{% extends "main_layout.html" %}
+
+<!-- Add Css -->
+{% block head %}
+    <link href="../static/account_style.css" rel="stylesheet">
+{% endblock head %}
+
+<!-- Set Title -->
+{% block title %}
+    Account
+{% endblock title %}
+
+<!-- Set Contents -->
+{% block content %}
+
+    <!-- Title Section -->
+    <h1 class="title">{{ fname }} {{ lname }}</h1>
+
+    <!-- User Information Container -->
+    <div class="info_container">
+
+        <form action="/account" method="POST">
+            
+            <div class="fname_container">
+                <h6 class="fname_title">First Name</h6>
+                <input class="fname_box" type="text" autocomplete="off" name="fname" value="{{ fname }}">
+            </div>
+
+            <div class="lname_container">
+                <h6 class="lname_title">Last Name</h6>
+                <input class="lname_box" type="text" autocomplete="off" name="lname" value="{{ lname }}">
+            </div>   
+
+            <div class="email_container">
+                <h6 class="email_title">Email</h6>
+                <input class="email_box" type="text" autocomplete="off" name="email" value="{{ email }}">
+            </div>
+
+            <div class="uname_container">
+                <h6 class="uname_title">Username</h6>
+                <input class="uname_box" type="text" autocomplete="off" name="uname" value="{{ uname }}">
+            </div> 
+
+            <button class="update_info" type="submit" name="btnacc" value="upd_info">Update</button>
+            
+            <div class="cur_pword_container">
+                <h6 class="cur_pword_title">Current Password</h6>
+                <input class="cur_pword_box" type="password" autocomplete="off" name="cur_pword">
+            </div>  
+
+            <div class="new_pword_container">
+                <h6 class="new_pword_title">New Password</h6>
+                <input class="new_pword_box" type="password" autocomplete="off" name="new_pword">
+            </div>
+
+            <button class="update_pword" type="submit" name="btnacc" value="upd_pword">Update Password</button>
+            
+            <button class="logout" type="submit" name="btnacc" value="logout">Log Out</button>
+
+        </form>
+
+    </div>
+    
+{% endblock content %}
